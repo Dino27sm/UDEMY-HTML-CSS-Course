@@ -73,3 +73,23 @@ aside {
 li:nth-child(odd) {
   color: red;
 }
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline solid orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
