@@ -10,3 +10,12 @@ body {
   text-transform: uppercase;
   background-color: #f7f7f7;
 }
+.price {
+  font-size: 24px;
+}
+.shipping {
+  font-size: 12px;
+  color: #777;
+  text-transform: uppercase;
+  font-weight: bold;
+}
