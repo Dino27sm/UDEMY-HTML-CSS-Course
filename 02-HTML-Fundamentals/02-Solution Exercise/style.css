@@ -2,6 +2,11 @@
   padding: 0;
   margin: 0;
 }
+
+.main-header {
+  margin: 50px 50px;
+}
+
 h1,
 h2,
 h3,
@@ -74,10 +79,6 @@ aside {
   border-bottom: 5px solid #1098ad;
 }
 
-li:nth-child(odd) {
-  color: red;
-}
-
 a:link {
   color: #1098ad;
   text-decoration: none;
@@ -101,7 +102,7 @@ a:active {
 /* ============ Resolving Conflicts ============*/
 
 #copyright {
-  /*with highest priority */
+  /*ID selector is with highest priority */
   color: red;
 }
 
