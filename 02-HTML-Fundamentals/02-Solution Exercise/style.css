@@ -24,6 +24,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding-top: 40px;
+  width: 500px;
 }
 .what-HTML {
   margin: 30px 0px 30px 0px;
@@ -31,6 +32,12 @@ aside {
 
 .learn-HTML {
   margin: 30px 0px 30px 0px;
+}
+
+.post-image {
+  margin-bottom: 30px;
+  width: 75%;
+  height: auto;
 }
 
 h1,
