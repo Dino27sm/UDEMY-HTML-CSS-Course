@@ -126,17 +126,5 @@ a:active {
 
 #copyright {
   /*ID selector is with highest priority */
-  color: red;
-}
-
-.copyright {
-  color: blue;
-}
-
-.text {
-  color: yellow;
-}
-/* !important -- eliminates all priorities */
-footer p {
-  color: rgb(0, 255, 0) !important;
+  color: #444;
 }
