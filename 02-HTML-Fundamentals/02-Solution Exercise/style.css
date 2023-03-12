@@ -29,8 +29,13 @@ body {
   font-size: 26px;
   margin-bottom: 10px;
 }
+.main-header-title::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
 
 .article-header {
+  color: #1098ad;
   font-size: 35px;
   margin-bottom: 40px;
 }
@@ -60,13 +65,9 @@ aside {
   height: auto;
 }
 
-h2,
-h3 {
-  color: #1098ad;
-}
-
 h3 {
   font-size: 30px;
+  color: #1098ad;
 }
 
 h4 {
