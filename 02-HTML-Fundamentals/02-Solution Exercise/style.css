@@ -92,10 +92,6 @@ li {
   margin-bottom: 30px;
 }
 
-#copyright {
-  font-size: 16px;
-}
-
 .related-author {
   font-size: 18px;
   font-weight: bold;
@@ -130,6 +126,7 @@ a:active {
 #copyright {
   /*ID selector is with highest priority */
   color: #444;
+  font-size: 16px;
 }
 
 button {
