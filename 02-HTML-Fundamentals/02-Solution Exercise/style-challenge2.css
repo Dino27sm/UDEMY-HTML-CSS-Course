@@ -22,12 +22,13 @@ body {
   background-color: #f00;
   padding: 5px 10px;
   color: #fff;
+  font-size: 12px;
   font-weight: bold;
   letter-spacing: 2px;
   display: inline-block;
   position: absolute;
-  top: -16px;
-  left: -38px;
+  top: -15px;
+  left: -32px;
 }
 
 .box-1,
