@@ -74,7 +74,7 @@ aside {
 
 .post-image {
   margin-bottom: 30px;
-  width: 75%;
+  width: 100%;
   height: auto;
 }
 
@@ -100,10 +100,16 @@ li {
   margin-bottom: 10px;
 }
 
-#author {
+.author-img {
+  float: left;
+  margin-bottom: 25px;
+}
+.author-name {
+  float: left;
   font-size: 18px;
   font-style: italic;
-  margin-bottom: 30px;
+  margin-left: 25px;
+  margin-top: 12px;
 }
 
 .related-author {
