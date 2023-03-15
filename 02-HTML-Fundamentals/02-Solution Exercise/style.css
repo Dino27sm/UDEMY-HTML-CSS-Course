@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   color: #444;
@@ -89,16 +90,11 @@ a:active {
   right: -25px;
 }
 
-article {
-  margin-bottom: 40px;
-}
-
 aside {
   background-color: #efefef;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding-top: 40px;
-  width: 500px;
 }
 .what-HTML {
   margin: 30px 0px 30px 0px;
@@ -130,10 +126,10 @@ p {
   line-height: 1.5;
 }
 
-li {
+.list li {
   font-size: 20px;
-  margin-left: 60px;
   margin-bottom: 10px;
+  margin-left: 50px;
 }
 
 .author-img {
@@ -155,6 +151,7 @@ li {
 
 .related {
   list-style: none;
+  padding: 40px 40px;
 }
 
 /* ============ Resolving Conflicts ============*/
@@ -174,10 +171,11 @@ button {
   bottom: 50px;
   right: 50px;
 }
-/* ============================================ */
+/* ====== Arangement by FLOATing ====== */
 
 article {
   width: 825px;
+  margin-bottom: 50px;
   float: left;
 }
 
@@ -189,3 +187,4 @@ aside {
 footer {
   clear: both;
 }
+/* ====================================== */
