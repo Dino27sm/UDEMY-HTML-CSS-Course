@@ -80,6 +80,22 @@ a:active {
   right: -25px;
 }
 
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.author-img {
+  width: 50px;
+  height: auto;
+  margin-right: 25px;
+}
+.author-name {
+  font-size: 18px;
+  font-style: italic;
+}
+
 aside {
   background-color: #efefef;
   border-top: 5px solid #1098ad;
@@ -120,18 +136,6 @@ p {
   font-size: 20px;
   margin-bottom: 10px;
   margin-left: 50px;
-}
-
-.author-img {
-  float: left;
-  margin-bottom: 25px;
-}
-.author-name {
-  float: left;
-  font-size: 18px;
-  font-style: italic;
-  margin-left: 25px;
-  margin-top: 12px;
 }
 
 .related-author {
