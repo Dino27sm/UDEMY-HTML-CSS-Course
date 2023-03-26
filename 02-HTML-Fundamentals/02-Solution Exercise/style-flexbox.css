@@ -144,8 +144,6 @@ p {
   padding: 40px 40px;
 }
 
-/* ============ Resolving Conflicts ============*/
-
 #copyright {
   /*ID selector is with highest priority */
   color: #444;
@@ -189,4 +187,5 @@ button {
 aside {
   flex: 0 0 300px;
 }
+
 /* ====================================== */
