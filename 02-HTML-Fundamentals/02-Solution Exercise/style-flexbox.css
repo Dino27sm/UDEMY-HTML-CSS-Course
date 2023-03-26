@@ -162,6 +162,9 @@ button {
   right: 50px;
 }
 /* ====== Arangement by FLEXing ====== */
+.list-related {
+  margin-top: 20px;
+}
 
 .list-related li {
   display: flex;
@@ -179,5 +182,11 @@ button {
 .article-aside-row {
   display: flex;
   margin-bottom: 50px;
+  gap: 75px;
+  align-items: start;
+}
+
+aside {
+  flex: 0 0 300px;
 }
 /* ====================================== */
