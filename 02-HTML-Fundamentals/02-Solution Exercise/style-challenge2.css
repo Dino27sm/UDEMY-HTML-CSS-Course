@@ -65,14 +65,14 @@ body {
   text-align: center;
   font-size: 22px;
   text-transform: uppercase;
-  background-color: #f0f0f0;
+  background-color: #e7e7e7;
   padding: 10px 0;
 }
 
+/* === Using FLEX method === */
 /* PRODUCT INFORMATION */
 .price {
   font-size: 24px;
-  float: left;
   margin-bottom: 20px;
 }
 .shipping {
@@ -81,10 +81,6 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   padding-top: 10px;
-  float: right;
-}
-.product-description {
-  clear: both;
 }
 
 .container-anchor {
@@ -104,7 +100,7 @@ body {
 .details-title {
   text-transform: uppercase;
   font-size: 16px;
-  padding-top: 9px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 .details-list {
@@ -133,24 +129,26 @@ body {
   background-color: #fff;
   color: #000;
 }
+
+.img-price-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: -1px;
+}
+
 .img-product {
   width: 250px;
   height: auto;
-  margin-right: 40px;
-  float: left;
 }
 
 .price-container {
   width: 240px;
   height: auto;
   margin-top: 20px;
-  margin-right: 40px;
-  float: left;
 }
 
 .details-container {
   width: 240px;
   height: auto;
-  margin-top: 20px;
-  float: left;
 }
