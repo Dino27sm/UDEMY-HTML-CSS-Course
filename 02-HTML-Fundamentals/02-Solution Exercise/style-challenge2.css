@@ -142,19 +142,17 @@ body {
   height: auto;
 }
 
-.price-container {
-  width: 240px;
-  height: auto;
-  margin-top: 15px;
-}
-
 .price-n-shipping {
   display: flex;
   justify-content: space-between;
 }
 
+.price-container {
+  flex: 0 0 240px;
+  margin-top: 15px;
+}
+
 .details-container {
-  width: 240px;
-  height: auto;
+  flex: 0 0 240px;
   margin-top: 20px;
 }
