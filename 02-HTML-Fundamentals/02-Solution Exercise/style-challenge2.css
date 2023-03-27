@@ -148,11 +148,11 @@ body {
 }
 
 .price-container {
-  flex: 0 0 240px;
+  flex: 1;
   margin-top: 15px;
 }
 
 .details-container {
-  flex: 0 0 240px;
+  flex: 1;
   margin-top: 20px;
 }
