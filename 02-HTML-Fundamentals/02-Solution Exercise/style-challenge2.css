@@ -62,11 +62,12 @@ body {
 }
 
 .product-title {
+  height: 45px;
+  padding-top: 10px;
   text-align: center;
   font-size: 22px;
   text-transform: uppercase;
   background-color: #e7e7e7;
-  padding: 10px 0;
 }
 
 /* === Using FLEX method === */
@@ -100,7 +101,6 @@ body {
 .details-title {
   text-transform: uppercase;
   font-size: 16px;
-  margin-top: 10px;
   margin-bottom: 20px;
 }
 .details-list {
@@ -145,10 +145,16 @@ body {
 .price-container {
   width: 240px;
   height: auto;
-  margin-top: 20px;
+  margin-top: 15px;
+}
+
+.price-n-shipping {
+  display: flex;
+  justify-content: space-between;
 }
 
 .details-container {
   width: 240px;
   height: auto;
+  margin-top: 20px;
 }
