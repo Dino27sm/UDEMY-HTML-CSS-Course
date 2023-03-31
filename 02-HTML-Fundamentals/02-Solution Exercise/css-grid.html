@@ -23,8 +23,8 @@
       }
       .el--5 {
         background-color: palevioletred;
-        align-self: stretch;
-        justify-self: stretch;
+        /* align-self: stretch;
+        justify-self: stretch; */
       }
       .el--6 {
         background-color: steelblue;
@@ -33,8 +33,8 @@
       .el--7 {
         background-color: yellow;
         /* display: none; */
-        align-self: flex-start;
-        justify-self: flex-start;
+        /* align-self: flex-start;
+        justify-self: flex-start; */
       }
       .el--8 {
         background-color: crimson;
@@ -72,16 +72,19 @@
 
         /* CSS GRID */
         display: grid;
-        grid-template-columns: 100px 150px 100px;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 200px 100px;
         row-gap: 35px;
         column-gap: 20px;
 
-        justify-content: center;
+        justify-content: stretch;
         align-content: center;
 
         align-items: center;
         justify-items: center;
+
+        /* align-items: stretch;
+        justify-items: stretch; */
       }
     </style>
   </head>
