@@ -185,7 +185,6 @@ button {
   align-items: start;
 }
 
-/* ====================================== */
 .container {
   display: grid;
   grid-template-columns: 1fr 300px;
