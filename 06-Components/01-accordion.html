@@ -41,6 +41,10 @@
       }
 
       .item {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        column-gap: 32px;
+        row-gap: 32px;
       }
 
       .number,
@@ -53,6 +57,9 @@
       .text {
       }
 
+      .hidden-box {
+        grid-column: 2;
+      }
       .icon {
         width: 24px;
         height: 24px;
