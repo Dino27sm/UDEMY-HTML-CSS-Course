@@ -38,10 +38,14 @@
       .accordion {
         width: 700px;
         margin: 100px auto;
+
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
       }
 
       .item {
-        box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0 32px rgba(0, 0, 0, 0.12);
         padding: 24px;
         display: grid;
         grid-template-columns: auto 1fr auto;
@@ -84,7 +88,7 @@
     <div class="accordion">
       <div class="item">
         <p class="number">01</p>
-        <p class="text">Line 01</p>
+        <p class="text">Where are these chairs assembled?</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -149,8 +153,8 @@
       </div>
 
       <div class="item">
-        <p class="number">01</p>
-        <p class="text">Line 03</p>
+        <p class="number">03</p>
+        <p class="text">Do you ship to countries outside the EU?</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
