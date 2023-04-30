@@ -95,20 +95,27 @@
       }
 
       .btn-left {
+        /* In relation of the PARENT ELEMENT */
         top: 50%;
         left: 0px;
+
+        /* In relation of the ELEMENT ITSELF */
         transform: translate(-50%, -50%);
       }
 
       .btn-right {
+        /* In relation of the PARENT ELEMENT */
         top: 50%;
         right: 0px;
+
+        /* In relation of the ELEMENT ITSELF */
         transform: translate(50%, -50%);
       }
 
       .btn-icon {
         width: 24px;
         height: 24px;
+        stroke: #087f5b;
       }
     </style>
   </head>
@@ -160,6 +167,13 @@
           />
         </svg>
       </button>
+
+      <div class="dots">
+        <button class="dot">&nbsp;;</button>
+        <button class="dot">&nbsp;;</button>
+        <button class="dot">&nbsp;;</button>
+        <button class="dot">&nbsp;;</button>
+      </div>
     </div>
   </body>
 </html>
