@@ -28,7 +28,6 @@
       }
 
       nav,
-      menu,
       section,
       aside,
       main {
@@ -41,16 +40,31 @@
         grid-row: 1 / -1;
       }
 
-      button {
-        font-size: 16px;
-        background-color: #7048e8;
-        border: none;
-        cursor: pointer;
-      }
       menu {
         background-color: #7048e8;
-        color: #fff;
         grid-column: 2 / -1;
+
+        display: flex;
+        align-items: center;
+        padding: 0px 40px;
+        gap: 12px;
+      }
+
+      button {
+        font-size: 16px;
+        color: #fff;
+        background-color: #5f3dc4;
+        border: none;
+        cursor: pointer;
+        padding: 8px 12px;
+        font-weight: bold;
+
+        display: inline-block;
+      }
+
+      button:last-child {
+        background-color: #d6336c;
+        margin-left: auto;
       }
 
       section {
@@ -70,6 +84,7 @@
       <button>Reply</button>
       <button>Forvard</button>
       <button>Mark unread</button>
+      <button>Trash</button>
     </menu>
     <section>Inbox</section>
     <main>Email view</main>
