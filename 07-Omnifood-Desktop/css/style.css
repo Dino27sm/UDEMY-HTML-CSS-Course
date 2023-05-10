@@ -124,8 +124,27 @@ body {
   height: 2.2rem;
 }
 
-.main-nav {
+/***********************************/
+/*          NAVIGATION             */
+/***********************************/
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
   font-size: 1.8rem;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
 }
 
 /***********************************/
