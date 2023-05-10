@@ -31,7 +31,7 @@ Default: 1;
 - Spacing System (px): 
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
-*/
+========================================*/
 
 * {
   margin: 0;
@@ -50,20 +50,9 @@ body {
   color: #555;
 }
 
-.section-hero {
-  background-color: #fdf2e9;
-  padding: 9.6rem 0;
-}
-
-.hero {
-  max-width: 130rem;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 9.6rem;
-  align-items: center;
-}
-
+/***********************************/
+/*   GENERAL REUSABLE COMPONENTS   */
+/***********************************/
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
@@ -71,12 +60,6 @@ body {
   letter-spacing: -0.5px;
   color: #333;
   margin-bottom: 3.2rem;
-}
-
-.hero-description {
-  font-size: 2rem;
-  line-height: 1.6;
-  margin-bottom: 4.8rem;
 }
 
 .btn:link,
@@ -119,6 +102,55 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+/***********************************/
+/*           HEADER                */
+/***********************************/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #fdf2e9;
+  padding: 0 4.8rem;
+
+  /* Fixed HEIGHT because later header 
+  will be used as a stiky element */
+  height: 9.6rem;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+.main-nav {
+  font-size: 1.8rem;
+}
+
+/***********************************/
+/*       HERO SECTION              */
+/***********************************/
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
 }
 
 .hero-img {
