@@ -253,7 +253,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.section-how div {
+.container div {
   height: 15rem;
   border: 5px solid #cf711f;
   justify-self: stretch;
