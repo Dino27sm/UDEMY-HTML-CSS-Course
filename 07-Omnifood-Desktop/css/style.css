@@ -231,3 +231,34 @@ body {
   font-weight: 700;
   color: #cf711f;
 }
+
+/***********************************/
+/*   HOW IT WORKS SECTION          */
+/***********************************/
+.section-how {
+  padding: 9.6rem 0;
+  background-color: aquamarine;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.section-how div {
+  height: 15rem;
+  border: 5px solid #cf711f;
+  justify-self: stretch;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
