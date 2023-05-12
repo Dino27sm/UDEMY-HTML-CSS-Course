@@ -262,3 +262,7 @@ body {
   padding: 9.6rem 0;
   background-color: aquamarine;
 }
+
+.step-img {
+  width: 50%;
+}
