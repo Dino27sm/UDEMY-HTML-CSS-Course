@@ -326,6 +326,7 @@
   padding: 1.6rem;
 }
 
+/* ==============================================  */
 /*   SCALE IMG Without OVERFLOW the parent element */
 .gallery-item {
   overflow: hidden;
@@ -341,3 +342,10 @@
   transform: scale(1.1);
 }
 /* ================================================ */
+
+/***********************************/
+/*          PRICING SECTION          */
+/***********************************/
+.section-pricing {
+  padding: 9.6rem 0;
+}
