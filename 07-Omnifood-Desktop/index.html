@@ -552,8 +552,38 @@
               </p>
 
               <form class="cta-form" action="#">
-                <input type="text" />
-                <input type="email" />
+                <div>
+                  <label for="full-name">Your name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="John Smith"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Your email</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear for us?</label>
+                  <select name="" id="select-where" required>
+                    <option value="">Please, choose an option</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">YouTube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ad">Facebook ad</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
                 <button class="btn">Sing up now</button>
               </form>
             </div>
