@@ -1,0 +1,20 @@
+/* In media queries 1rem = 1em = 16px. Use Xpx : 16px */
+
+/****************************************/
+/*  BELOW 1344px - for smaller desktops */
+/****************************************/
+
+/* 84em = 1344px : 16px */
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
