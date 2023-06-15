@@ -20,7 +20,7 @@
 }
 
 /*****************************************/
-/*  BELOW 1200px - for landscape tablets */
+/*  BELOW 1200px - for Landscape Tablets */
 /*****************************************/
 
 /* 75em = 1200px : 16px */
@@ -57,5 +57,37 @@
 
   .testimonials-container {
     padding: 9.6rem 3.2rem;
+  }
+}
+
+/*****************************************/
+/*      BELOW 1200px - for Tablets       */
+/*****************************************/
+
+/* 59em = 944px : 16px */
+@media (max-width: 59em) {
+  html {
+    /* Received by 8px : 16px = 0.5 */
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
   }
 }
