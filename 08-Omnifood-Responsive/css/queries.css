@@ -18,3 +18,28 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/*****************************************/
+/*  BELOW 1200px - for landscape tablets */
+/*****************************************/
+
+/* 75em = 1200px : 16px */
+@media (max-width: 75em) {
+  html {
+    /* Received by 9px : 16px = 0.5625 */
+    font-size: 56.25%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.2rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+}
