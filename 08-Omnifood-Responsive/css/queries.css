@@ -151,22 +151,22 @@
     pointer-events: none;
 
     /* 3) Hide it from sreen readers */
-    visibility: hidden;
+    visibility: visible;
   }
 
   .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
-    visibility: visible;
+    visibility: hidden;
     transform: translateX(0);
   }
 
   .nav-open .icon-mobile-nav[name="close-outline"] {
-    display: block;
+    display: none;
   }
 
   .nav-open .icon-mobile-nav[name="menu-outline"] {
-    display: none;
+    display: block;
   }
 
   .main-nav-list {
