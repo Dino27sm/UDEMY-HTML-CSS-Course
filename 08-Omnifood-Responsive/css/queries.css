@@ -217,3 +217,26 @@
     margin-bottom: 3.2rem;
   }
 }
+
+/*****************************************/
+/*        BELOW 560px - for Phones       */
+/*****************************************/
+@media (max-width: 35em) {
+  .grid {
+    gap: 4.8rem;
+  }
+
+  .grid--2--cols,
+  .grid--3--cols,
+  .grid--4--cols {
+    grid-template-columns: 1fr;
+  }
+
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+}
