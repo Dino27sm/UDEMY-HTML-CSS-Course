@@ -123,9 +123,11 @@
     margin-top: 1.6rem;
   }
 
+  /* ========================================= */
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    z-index: 9999;
   }
 
   .main-nav {
@@ -144,29 +146,29 @@
     transition: all 0.5s ease-in;
 
     /* To hide navigation */
-    /* 1) Hide it visually */
+    /* 1) Hide it visually - Allows "transition" */
     opacity: 0;
 
     /* 2) Make it unaccessible fom mouce and keyboard */
     pointer-events: none;
 
     /* 3) Hide it from sreen readers */
-    visibility: visible;
+    visibility: hidden;
   }
 
   .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
-    visibility: hidden;
+    visibility: visible;
     transform: translateX(0);
   }
 
   .nav-open .icon-mobile-nav[name="close-outline"] {
-    display: none;
+    display: block;
   }
 
   .nav-open .icon-mobile-nav[name="menu-outline"] {
-    display: block;
+    display: none;
   }
 
   .main-nav-list {
