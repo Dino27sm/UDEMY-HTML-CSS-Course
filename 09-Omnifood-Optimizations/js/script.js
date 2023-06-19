@@ -1,3 +1,18 @@
+console.log("Hello World!");
+
+const h1 = document.querySelector(".heading-primary");
+console.log(h1);
+
+h1.addEventListener("click", function () {
+  h1.textContent = "My Name";
+  h1.style.backgroundColor = "blue";
+  h1.style.padding = "5rem";
+});
+
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
@@ -16,7 +31,7 @@ function checkFlexGap() {
 
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
-checkFlexGap();
+// checkFlexGap();
 
 // https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
 
