@@ -64,6 +64,8 @@ Default: 9px;
 html {
   /* Received by 10px : 16px = 0.625 */
   font-size: 62.5%;
+  /* Does NOT work on Safary - Use JS */
+  /* scroll-behavior: smooth; */
 }
 
 body {
