@@ -41,9 +41,15 @@ allLinks.forEach(function (link) {
       });
     }
 
+    // Scroll to other links from the menu
     if (href !== "#" && href.startsWith("#")) {
       const sectionEl = document.querySelector(href);
       sectionEl.scrollIntoView({ behavior: "smooth" });
+    }
+
+    // Close mobile navigation menu
+    if (link.classList.contains("main-nav-link")) {
+      headerEl.classList.toggle("nav-open");
     }
   });
 });
