@@ -54,6 +54,24 @@ allLinks.forEach(function (link) {
   });
 });
 
+// **************************************************
+// Sticky Navigation - NOT Fixed
+const sectionHeroEl = document.querySelector(".section-hero");
+
+const obs = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    console.log(ent);
+  },
+  {
+    // In the viewport range
+    root: null,
+    threshold: 0,
+  }
+);
+
+obs.observe(sectionHeroEl);
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
