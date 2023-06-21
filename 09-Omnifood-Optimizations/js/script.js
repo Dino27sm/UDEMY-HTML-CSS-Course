@@ -62,15 +62,22 @@ const obs = new IntersectionObserver(
   function (entries) {
     const ent = entries[0];
     console.log(ent);
+    //
+    // Condition to OPEN Sticky Navigation
     if (ent.isIntersecting === false) {
       document.body.classList.add("sticky");
+    }
+    //
+    // Condition to CLOSE Sticky Navigation
+    if (ent.isIntersecting === true) {
+      document.body.classList.remove("sticky");
     }
   },
   {
     // In the viewport range
     root: null,
     threshold: 0,
-    rootMargin: "-80px",
+    rootMargin: "-70px",
   }
 );
 
