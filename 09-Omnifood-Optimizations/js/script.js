@@ -1,7 +1,7 @@
-console.log("Hello World!");
+// console.log("Hello World!");
 
 const h1 = document.querySelector(".heading-primary");
-console.log(h1);
+// console.log(h1);
 
 // h1.addEventListener("click", function () {
 //   h1.textContent = "My Name";
@@ -31,7 +31,7 @@ allLinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
     e.preventDefault();
     const href = link.getAttribute("href");
-    console.log(href);
+    // console.log(href);
 
     // Scroll back to top
     if (href === "#") {
@@ -61,7 +61,7 @@ const sectionHeroEl = document.querySelector(".section-hero");
 const obs = new IntersectionObserver(
   function (entries) {
     const ent = entries[0];
-    console.log(ent);
+    // console.log(ent);
     //
     // Condition to OPEN Sticky Navigation
     if (ent.isIntersecting === false) {
